@@ -12,5 +12,9 @@
 *.la
 *.a
 
-#
-_VIP
+#LabVIEW ignore files
+*.aliases
+*.lvlps
+
+# Directories
+_VIP/
