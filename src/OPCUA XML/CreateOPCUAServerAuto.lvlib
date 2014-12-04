@@ -9,7 +9,6 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2012\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">false</Property>
 	<Property Name="Enable Data Logging" Type="Bool">false</Property>
-	<Property Name="NI.Lib.DefaultMenu" Type="Str">OPCUA XML.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">目的：
 
 	* 数据点多opcua Server 的情况，使用程序创建， 比较复杂。当增加新的数据点时，需要修改源程序，风险大，容易对之前的程序产生影响。
@@ -48,7 +47,6 @@ OPCUA不支持除此之外的数据类型。
 			* property 为数据节点，有name、access、datatype、initValue 属性。</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;8"=&gt;MQ%!8143;(8.6"2CVM#WJ",7Q,SN&amp;(N&lt;!NK!7VM#WI"&lt;8A0$%94UZ2$P%E"Y.?G@I%A7=11U&gt;M\7P%FXB^VL\`NHV=@X&lt;^39O0^N(_&lt;8NZOEH@@=^_CM?,3)VK63LD-&gt;8LS%=_]J'0@/1N&lt;XH,7^\SFJ?]Z#5P?=F,HP+5JTTF+5`Z&gt;MB$(P+1)YX*RU2DU$(![)Q3YW.YBG&gt;YBM@8'*\B':\B'2Z&gt;9HC':XC':XD=&amp;M-T0--T0-.DK%USWS(H'2\$2`-U4`-U4`/9-JKH!&gt;JE&lt;?!W#%;UC_WE?:KH?:R']T20]T20]\A=T&gt;-]T&gt;-]T?/7&lt;66[UTQ//9^BIHC+JXC+JXA-(=640-640-6DOCC?YCG)-G%:(#(+4;6$_6)]R?.8&amp;%`R&amp;%`R&amp;)^,WR/K&lt;75?GM=BZUG?Z%G?Z%E?1U4S*%`S*%`S'$;3*XG3*XG3RV320-G40!G3*D6^J-(3D;F4#J,(T\:&lt;=HN+P5FS/S,7ZIWV+7.NNFC&lt;+.&lt;GC0819TX-7!]JVO,(7N29CR6L%7,^=&lt;(1M4#R*IFV][.DX(X?V&amp;6&gt;V&amp;G&gt;V&amp;%&gt;V&amp;\N(L@_Z9\X_TVONVN=L^?Y8#ZR0J`D&gt;$L&amp;]8C-Q_%1_`U_&gt;LP&gt;WWPAG_0NB@$TP@4C`%`KH@[8`A@PRPA=PYZLD8Y!#/7SO!!!!!!</Property>
-	<Property Name="NI.Lib.Locked" Type="Str">65A31AE0F1AAE162953FBB6E8100E814</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -107,6 +105,7 @@ OPCUA不支持除此之外的数据类型。
 			<Item Name="str to datetype.vi" Type="VI" URL="../subVIs/convert VIs/str to datetype.vi"/>
 			<Item Name="str to policy.vi" Type="VI" URL="../subVIs/convert VIs/str to policy.vi"/>
 			<Item Name="str to accesstype.vi" Type="VI" URL="../subVIs/convert VIs/str to accesstype.vi"/>
+			<Item Name="str to datetime.vi" Type="VI" URL="../subVIs/convert VIs/str to datetime.vi"/>
 		</Item>
 		<Item Name="open configuration.vi" Type="VI" URL="../subVIs/open configuration.vi"/>
 		<Item Name="create.vi" Type="VI" URL="../subVIs/create.vi"/>
@@ -114,11 +113,7 @@ OPCUA不支持除此之外的数据类型。
 		<Item Name="publish stucture.vi" Type="VI" URL="../subVIs/publish stucture.vi"/>
 		<Item Name="publish node.vi" Type="VI" URL="../subVIs/publish node.vi"/>
 		<Item Name="set initial value.vi" Type="VI" URL="../subVIs/set initial value.vi"/>
-		<Item Name="close configuration.vi" Type="VI" URL="/&lt;userlib&gt;/OPCUA XML/subVIs/close configuration.vi"/>
+		<Item Name="close configuration.vi" Type="VI" URL="../subVIs/close configuration.vi"/>
 	</Item>
 	<Item Name="Create OPCUA Server Auto.vi" Type="VI" URL="../Create OPCUA Server Auto.vi"/>
-	<Item Name="OPCUA XML.mnu" Type="Document" URL="/&lt;userlib&gt;/OPCUA XML/OPCUA XML.mnu">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 </Library>
-<?sig 49E3FFA7FA4F5C0F8A672202449DFBB4?>
