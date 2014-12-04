@@ -56,45 +56,55 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="lib" Type="Packed Library">
+			<Item Name="OPCUA XML" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{5E6FF354-A69C-421F-BB4B-1AF6DD5CEAD8}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">lib</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../vipb</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B9391BD5-F525-4855-BAB4-285BB2EF109E}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">password:nevstopopcua</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">OPCUA XML</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/13.0</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../vipb/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{57E44D88-3B1A-4A93-9FC9-6EC6CBED2428}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0A065555-76F0-419A-92BA-32BCA60E5B4D}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">OPCUA XML.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../vipb/NI_AB_PROJECTNAME.lvlibp</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../vipb/NI_AB_PROJECTNAME.llb</Property>
+				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../vipb</Property>
+				<Property Name="Destination[1].path" Type="Path">../vipb/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CEE577CC-4B35-40C7-AC1F-B993F13D2199}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1337DB48-026E-40BB-9F8A-8406B34E97D1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CreateOPCUAServerAuto.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">NEVSTOP</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Creating the OPCUA with a XML file.</Property>
-				<Property Name="TgtF_internalName" Type="Str">opcua xml</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2014 </Property>
-				<Property Name="TgtF_productName" Type="Str">LabVIEW OPCUA XML Library</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{2E9E10F5-377A-45FD-B90E-3DCB09C6FBE1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">OPCUA XML.lvlibp</Property>
+				<Property Name="Source[2].Container.applyPassword" Type="Bool">true</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Documentation</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Password</Property>
+				<Property Name="Source[2].properties[0].value" Type="Str">bmV2c3RvcG9wY3Vh</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CreateOPCUAServerAuto.lvlib/subVIs</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/CreateOPCUAServerAuto.lvlib/Create OPCUA Server Auto.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
 		</Item>
 	</Item>
