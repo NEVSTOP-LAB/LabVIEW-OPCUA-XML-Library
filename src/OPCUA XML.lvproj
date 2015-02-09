@@ -25,7 +25,77 @@
 			<Item Name="foxechs.exe" Type="Document" URL="../Documentation/foxechs.exe"/>
 			<Item Name="OPCUA XML Automaticallly publishing.pptx" Type="Document" URL="../Documentation/OPCUA XML Automaticallly publishing.pptx"/>
 		</Item>
-		<Item Name="CreateOPCUAServerAuto.lvlib" Type="Library" URL="../OPCUA XML/CreateOPCUAServerAuto.lvlib"/>
+		<Item Name="llb" Type="Folder">
+			<Item Name="subVIs" Type="Folder">
+				<Item Name="Convert VIs" Type="Folder">
+					<Item Name="str to value" Type="Folder">
+						<Item Name="str to boolean.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to boolean.vi"/>
+						<Item Name="str to float.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to float.vi"/>
+						<Item Name="str to double.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to double.vi"/>
+						<Item Name="str to uint8.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint8.vi"/>
+						<Item Name="str to uint16.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint16.vi"/>
+						<Item Name="str to uint32.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint32.vi"/>
+						<Item Name="str to uint64.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint64.vi"/>
+						<Item Name="str to int8.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int8.vi"/>
+						<Item Name="str to int16.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int16.vi"/>
+						<Item Name="str to int32.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int32.vi"/>
+						<Item Name="str to int64.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int64.vi"/>
+						<Item Name="str to timestamp.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to timestamp.vi"/>
+						<Item Name="str to bytestring.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to bytestring.vi"/>
+						<Item Name="str to booleanarray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to booleanarray.vi"/>
+						<Item Name="str to doublearray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to doublearray.vi"/>
+						<Item Name="str to floatarray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to floatarray.vi"/>
+						<Item Name="str to int8array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int8array.vi"/>
+						<Item Name="str to int16array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int16array.vi"/>
+						<Item Name="str to int32array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int32array.vi"/>
+						<Item Name="str to int64array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int64array.vi"/>
+						<Item Name="str to uint8array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint8array.vi"/>
+						<Item Name="str to uint16array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint16array.vi"/>
+						<Item Name="str to uint32array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint32array.vi"/>
+						<Item Name="str to uint64array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint64array.vi"/>
+						<Item Name="str to strarray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to strarray.vi"/>
+						<Item Name="str to datetimearray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to datetimearray.vi"/>
+						<Item Name="str to bytestringarray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to bytestringarray.vi"/>
+						<Item Name="split array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/split array.vi"/>
+					</Item>
+					<Item Name="str to certification path.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to certification path.vi"/>
+					<Item Name="str to datetype.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to datetype.vi"/>
+					<Item Name="str to policy.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to policy.vi"/>
+					<Item Name="str to accesstype.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to accesstype.vi"/>
+					<Item Name="str to datetime.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to datetime.vi"/>
+				</Item>
+				<Item Name="RT" Type="Folder">
+					<Item Name="supports" Type="Folder">
+						<Item Name="UA_XML Data.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML Data.ctl"/>
+						<Item Name="UA_RowType.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_RowType.ctl"/>
+						<Item Name="UA_Server config info.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Server config info.ctl"/>
+						<Item Name="UA_Node.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Node.ctl"/>
+						<Item Name="UA_OP Action.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_OP Action.ctl"/>
+						<Item Name="UA_Data_To_Item.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Data_To_Item.vi"/>
+						<Item Name="UA_GetNodenameValue.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_GetNodenameValue.vi"/>
+						<Item Name="UA_Node Quene.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Node Quene.vi"/>
+						<Item Name="UA_XML_stringtype.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML_stringtype.vi"/>
+						<Item Name="UA_StringToCertificationsFiles.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_StringToCertificationsFiles.vi"/>
+						<Item Name="UA_XML Get Server config info.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML Get Server config info.vi"/>
+					</Item>
+					<Item Name="UA_XML_Read.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML_Read.vi"/>
+					<Item Name="UA_XML_OP.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML_OP.vi"/>
+					<Item Name="UA_Initial_Server.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Initial_Server.vi"/>
+					<Item Name="UA_Add node.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Add node.vi"/>
+					<Item Name="set_initial_value.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/set_initial_value.vi"/>
+				</Item>
+				<Item Name="Desktop" Type="Folder">
+					<Item Name="open configuration.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/open configuration.vi"/>
+					<Item Name="create.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/create.vi"/>
+					<Item Name="trusted client certfications.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/trusted client certfications.vi"/>
+					<Item Name="publish stucture.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/publish stucture.vi"/>
+					<Item Name="publish node.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/publish node.vi"/>
+					<Item Name="set initial value.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/set initial value.vi"/>
+					<Item Name="close configuration.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/close configuration.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Create OPCUA Server Auto.vi" Type="VI" URL="../OPCUA XML/Create OPCUA Server Auto.vi"/>
+		</Item>
 		<Item Name="server config.xml" Type="Document" URL="../server config.xml"/>
 		<Item Name="Server.vi" Type="VI" URL="../Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -74,7 +144,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../vipb/NI_AB_PROJECTNAME.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0A065555-76F0-419A-92BA-32BCA60E5B4D}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../vipb/NI_AB_PROJECTNAME.llb</Property>
@@ -82,29 +152,27 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../vipb/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1337DB48-026E-40BB-9F8A-8406B34E97D1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{89319C4C-2B45-4CC2-BC52-F9E885CABE10}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyPassword" Type="Bool">true</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CreateOPCUAServerAuto.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].Container.applyPassword" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Documentation</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Password</Property>
-				<Property Name="Source[2].properties[0].value" Type="Str">bmV2c3RvcG9wY3Vh</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Documentation</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Password</Property>
+				<Property Name="Source[1].properties[0].value" Type="Str">bmV2c3RvcG9wY3Vh</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/llb/Create OPCUA Server Auto.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CreateOPCUAServerAuto.lvlib/subVIs</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/llb</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/CreateOPCUAServerAuto.lvlib/Create OPCUA Server Auto.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -180,13 +248,67 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="CreateOPCUAServerAuto.lvlib" Type="Library" URL="../OPCUA XML/CreateOPCUAServerAuto.lvlib"/>
+			<Item Name="Create OPCUA Server Auto.vi" Type="VI" URL="../OPCUA XML/Create OPCUA Server Auto.vi"/>
+			<Item Name="create.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/create.vi"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ni_opcua_base.dll" Type="Document" URL="ni_opcua_base.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="open configuration.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/open configuration.vi"/>
+			<Item Name="publish node.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/publish node.vi"/>
+			<Item Name="publish stucture.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/publish stucture.vi"/>
+			<Item Name="set initial value.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/set initial value.vi"/>
+			<Item Name="set_initial_value.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/set_initial_value.vi"/>
+			<Item Name="split array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/split array.vi"/>
+			<Item Name="str to accesstype.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to accesstype.vi"/>
+			<Item Name="str to boolean.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to boolean.vi"/>
+			<Item Name="str to booleanarray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to booleanarray.vi"/>
+			<Item Name="str to bytestring.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to bytestring.vi"/>
+			<Item Name="str to bytestringarray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to bytestringarray.vi"/>
+			<Item Name="str to certification path.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to certification path.vi"/>
+			<Item Name="str to datetimearray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to datetimearray.vi"/>
+			<Item Name="str to datetype.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to datetype.vi"/>
+			<Item Name="str to double.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to double.vi"/>
+			<Item Name="str to doublearray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to doublearray.vi"/>
+			<Item Name="str to float.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to float.vi"/>
+			<Item Name="str to floatarray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to floatarray.vi"/>
+			<Item Name="str to int8.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int8.vi"/>
+			<Item Name="str to int8array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int8array.vi"/>
+			<Item Name="str to int16.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int16.vi"/>
+			<Item Name="str to int16array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int16array.vi"/>
+			<Item Name="str to int32.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int32.vi"/>
+			<Item Name="str to int32array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int32array.vi"/>
+			<Item Name="str to int64.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int64.vi"/>
+			<Item Name="str to int64array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to int64array.vi"/>
+			<Item Name="str to policy.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to policy.vi"/>
+			<Item Name="str to strarray.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to strarray.vi"/>
+			<Item Name="str to timestamp.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to timestamp.vi"/>
+			<Item Name="str to uint8.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint8.vi"/>
+			<Item Name="str to uint8array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint8array.vi"/>
+			<Item Name="str to uint16.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint16.vi"/>
+			<Item Name="str to uint16array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint16array.vi"/>
+			<Item Name="str to uint32.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint32.vi"/>
+			<Item Name="str to uint32array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint32array.vi"/>
+			<Item Name="str to uint64.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint64.vi"/>
+			<Item Name="str to uint64array.vi" Type="VI" URL="../OPCUA XML/subVIs/convert VIs/str to uint64array.vi"/>
+			<Item Name="trusted client certfications.vi" Type="VI" URL="../OPCUA XML/subVIs/Desktop/trusted client certfications.vi"/>
+			<Item Name="UA_Add node.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Add node.vi"/>
+			<Item Name="UA_Data_To_Item.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Data_To_Item.vi"/>
+			<Item Name="UA_GetNodenameValue.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_GetNodenameValue.vi"/>
+			<Item Name="UA_Initial_Server.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Initial_Server.vi"/>
+			<Item Name="UA_Node Quene.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Node Quene.vi"/>
+			<Item Name="UA_Node.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Node.ctl"/>
+			<Item Name="UA_OP Action.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_OP Action.ctl"/>
+			<Item Name="UA_RowType.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_RowType.ctl"/>
+			<Item Name="UA_Server config info.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_Server config info.ctl"/>
+			<Item Name="UA_StringToCertificationsFiles.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_StringToCertificationsFiles.vi"/>
+			<Item Name="UA_XML Data.ctl" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML Data.ctl"/>
+			<Item Name="UA_XML Get Server config info.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML Get Server config info.vi"/>
+			<Item Name="UA_XML_OP.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML_OP.vi"/>
+			<Item Name="UA_XML_Read.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML_Read.vi"/>
+			<Item Name="UA_XML_stringtype.vi" Type="VI" URL="../OPCUA XML/subVIs/RT/UA_XML_stringtype.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
