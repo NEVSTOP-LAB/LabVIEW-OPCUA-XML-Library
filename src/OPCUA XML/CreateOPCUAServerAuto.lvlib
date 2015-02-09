@@ -107,13 +107,35 @@ OPCUA不支持除此之外的数据类型。
 			<Item Name="str to accesstype.vi" Type="VI" URL="../subVIs/convert VIs/str to accesstype.vi"/>
 			<Item Name="str to datetime.vi" Type="VI" URL="../subVIs/convert VIs/str to datetime.vi"/>
 		</Item>
-		<Item Name="open configuration.vi" Type="VI" URL="../subVIs/open configuration.vi"/>
-		<Item Name="create.vi" Type="VI" URL="../subVIs/create.vi"/>
-		<Item Name="trusted client certfications.vi" Type="VI" URL="../subVIs/trusted client certfications.vi"/>
-		<Item Name="publish stucture.vi" Type="VI" URL="../subVIs/publish stucture.vi"/>
-		<Item Name="publish node.vi" Type="VI" URL="../subVIs/publish node.vi"/>
-		<Item Name="set initial value.vi" Type="VI" URL="../subVIs/set initial value.vi"/>
-		<Item Name="close configuration.vi" Type="VI" URL="../subVIs/close configuration.vi"/>
+		<Item Name="RT" Type="Folder">
+			<Item Name="supports" Type="Folder">
+				<Item Name="UA_XML Data.ctl" Type="VI" URL="../subVIs/RT/UA_XML Data.ctl"/>
+				<Item Name="UA_RowType.ctl" Type="VI" URL="../subVIs/RT/UA_RowType.ctl"/>
+				<Item Name="UA_Server config info.ctl" Type="VI" URL="../subVIs/RT/UA_Server config info.ctl"/>
+				<Item Name="UA_Node.ctl" Type="VI" URL="../subVIs/RT/UA_Node.ctl"/>
+				<Item Name="UA_OP Action.ctl" Type="VI" URL="../subVIs/RT/UA_OP Action.ctl"/>
+				<Item Name="UA_Data_To_Item.vi" Type="VI" URL="../subVIs/RT/UA_Data_To_Item.vi"/>
+				<Item Name="UA_GetNodenameValue.vi" Type="VI" URL="../subVIs/RT/UA_GetNodenameValue.vi"/>
+				<Item Name="UA_Node Quene.vi" Type="VI" URL="../subVIs/RT/UA_Node Quene.vi"/>
+				<Item Name="UA_XML_stringtype.vi" Type="VI" URL="../subVIs/RT/UA_XML_stringtype.vi"/>
+				<Item Name="UA_StringToCertificationsFiles.vi" Type="VI" URL="../subVIs/RT/UA_StringToCertificationsFiles.vi"/>
+				<Item Name="UA_XML Get Server config info.vi" Type="VI" URL="../subVIs/RT/UA_XML Get Server config info.vi"/>
+			</Item>
+			<Item Name="UA_XML_Read.vi" Type="VI" URL="../subVIs/RT/UA_XML_Read.vi"/>
+			<Item Name="UA_XML_OP.vi" Type="VI" URL="../subVIs/RT/UA_XML_OP.vi"/>
+			<Item Name="UA_Initial_Server.vi" Type="VI" URL="../subVIs/RT/UA_Initial_Server.vi"/>
+			<Item Name="UA_Add node.vi" Type="VI" URL="../subVIs/RT/UA_Add node.vi"/>
+			<Item Name="set_initial_value.vi" Type="VI" URL="../subVIs/RT/set_initial_value.vi"/>
+		</Item>
+		<Item Name="Desktop" Type="Folder">
+			<Item Name="open configuration.vi" Type="VI" URL="../subVIs/Desktop/open configuration.vi"/>
+			<Item Name="create.vi" Type="VI" URL="../subVIs/Desktop/create.vi"/>
+			<Item Name="trusted client certfications.vi" Type="VI" URL="../subVIs/Desktop/trusted client certfications.vi"/>
+			<Item Name="publish stucture.vi" Type="VI" URL="../subVIs/Desktop/publish stucture.vi"/>
+			<Item Name="publish node.vi" Type="VI" URL="../subVIs/Desktop/publish node.vi"/>
+			<Item Name="set initial value.vi" Type="VI" URL="../subVIs/Desktop/set initial value.vi"/>
+			<Item Name="close configuration.vi" Type="VI" URL="../subVIs/Desktop/close configuration.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Create OPCUA Server Auto.vi" Type="VI" URL="../Create OPCUA Server Auto.vi"/>
 </Library>
