@@ -6,4 +6,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Client.vi" Type="VI" URL="../Client.vi"/>
 	<Item Name="Server.vi" Type="VI" URL="../Server.vi"/>
+	<Item Name="Server(UtilityMode).vi" Type="VI" URL="../Server(UtilityMode).vi"/>
+	<Item Name="config.xml" Type="Document" URL="../config.xml"/>
+	<Item Name="readme.html" Type="Document" URL="../readme.html"/>
 </Library>

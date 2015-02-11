@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opcua_server>
+<!--  Server 名称 (必填) -->
+<name>OPCUA server</name>
+<!--  Server port (必填) -->
+<port>49580</port>
+<!--  Server policy 信息 (必填) -->
+<!--  选填： None / basic128rsa125 / encrypt with basic128rsa125 / basic256 / encrypt with basic256  -->
+<policy>none</policy>
+<!--  Server Certification 信息 (必填) -->
+<!--  填写 cer 文件路径，不需要时，保持空白 -->
+<!--  * e.g. C:\Users\yaoli\AppData\Roaming\alipay\cf\base64.cer -->
+<serverCertification>C:\ProgramData\National Instruments\certstore\opcua\Server Demo Certificate.der</serverCertification>
+<!--  Server 信任的client 列表 (Optional) -->
+<trustedClientCertifications>
+  <!--  填写 cer 文件路径，不需要时，保持空白；信任多个client时，Copy 增加新的certification 字段-->  
+  <!--  填写 cer 文件路径，不需要时，保持空白 -->
+  <!--  * e.g. C:\Users\yaoli\AppData\Roaming\alipay\cf\base64.cer -->
+  <certification>C:\ProgramData\National Instruments\certstore\opcua\Client Demo Certificate.der</certification> 
+</trustedClientCertifications>
+<!--  Server 结构状态 (必填) -->
+<structure>
+    <folder name="Device">
+      <item name="Node" access="read/write" datatype="int32" initialValue="0" description="">
+      <property name="Set Point" access="read/write" datatype="int32" initialValue="0" description="Set point"></property>
+      </item>
+    </folder>
+</structure>
+</opcua_server>

@@ -41,11 +41,10 @@
 			<Item Name="OPCUA(UtilityMode).lvlib" Type="Library" URL="../OPCUA(Utility)/OPCUA(UtilityMode).lvlib"/>
 		</Item>
 		<Item Name="OPCUA" Type="Folder">
-			<Item Name="server config.xml" Type="Document" URL="../server config.xml"/>
 			<Item Name="OPC UA Demo.lvlib" Type="Library" URL="../OPCUA/OPC UA Demo.lvlib"/>
 		</Item>
 		<Item Name="Server.vi" Type="VI" URL="../Server.vi"/>
-		<Item Name="readme.html" Type="Document" URL="../OPCUA/readme.html"/>
+		<Item Name="server config.xml" Type="Document" URL="../server config.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
