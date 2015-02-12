@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opcua_server>
+<!--  Server 名称 (必填) -->
+<name>Faraday Cup Control System</name>
+<!--  Server port (必填) -->
+<port>4845</port>
+<!--  Server policy 信息 (必填) -->
+<!--  选填： None / basic128rsa125 / encrypt with basic128rsa125 / basic256 / encrypt with basic256  -->
+<policy>none</policy>
+<!--  Server Certification 信息 (必填) -->
+<!--  填写 cer 文件路径，不需要时，保持空白 -->
+<!--  * e.g. C:\Users\yaoli\AppData\Roaming\alipay\cf\base64.cer -->
+<serverCertification></serverCertification>
+<!--  Server 信任的client 列表 (Optional) -->
+<trustedClientCertifications>
+  <!--  填写 cer 文件路径，不需要时，保持空白；信任多个client时，Copy 增加新的certification 字段-->
+  <!--  填写 cer 文件路径，不需要时，保持空白 -->
+  <!--  * e.g. C:\Users\yaoli\AppData\Roaming\alipay\cf\base64.cer -->
+  <certification></certification>
+</trustedClientCertifications>
+<!--  Server 结构状态 (必填) -->
+<structure>
+    <folder name="System">
+        <item name="Server URL" access="read/write" datatype="string" initialValue="" description="Server URL."></item>
+    </folder>
+    <folder name="Motion">
+        <folder name="Control">
+            <item name="Power Enable" access="read/write" datatype="boolean" initialValue="FALSE" description="Enable the motion power."></item>
+            <item name="Start Move" access="read/write" datatype="boolean" initialValue="FALSE" description="Start to move."></item>
+            <item name="Stop Move" access="read/write" datatype="boolean" initialValue="FALSE" description="Stop the movement."></item>
+            <item name="Find Home" access="read/write" datatype="boolean" initialValue="FALSE" description="Start to find home."></item>
+        </folder>
+        <folder name="Status">
+            <item name="FWD Limit" access="read" datatype="boolean" initialValue="FALSE" description="Show the status of fwd limit."></item>
+            <item name="REV Limit" access="read" datatype="boolean" initialValue="FALSE" description="Show the status of rev limit."></item>
+            <item name="STO" access="read" datatype="boolean" initialValue="FALSE" description="Show the status of STO."></item>
+            <item name="Move Complete" access="read" datatype="boolean" initialValue="FALSE" description="Show the status of movement."></item>
+            <item name="Find Home Complete" access="read" datatype="boolean" initialValue="FALSE" description="show the status of finding home."></item>
+            <item name="E Ruler" access="read" datatype="double" initialValue="0" description="Show the Eruler position."></item>
+        </folder>
+        <folder name="Last Error">
+            <item name="acknowledge" access="read/write" datatype="boolean" initialValue="FALSE" description="Acknowledge last error."></item>
+            <item name="code" access="read" datatype="int32" initialValue="0" description="Show the code of last error."></item>
+            <item name="info" access="read" datatype="int32" initialValue="0" description="Show the info of last error."></item>
+        </folder>
+    </folder>
+    <folder name="DAQ">
+        <item name="Measurement Range" access="read/write" datatype="int16" initialValue="100" description="Measurement range."></item>
+        <item name="Intensity" access="read" datatype="double" initialValue="100" description="Intensity Value."></item>
+        <item name="Save file?" access="read/write" datatype="boolean" initialValue="FALSE" description="Enable saving file."></item>
+        <item name="File Path" access="read/write" datatype="string" initialValue="" description="Local path of saved file."></item>
+    </folder>
+</structure>
+</opcua_server>

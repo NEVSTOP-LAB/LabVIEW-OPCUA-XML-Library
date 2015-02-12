@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="Convert VIs" Type="Folder">
 			<Item Name="str to value" Type="Folder">
@@ -73,4 +74,5 @@
 		</Item>
 	</Item>
 	<Item Name="Create OPCUA Server Auto.vi" Type="VI" URL="../Create OPCUA Server Auto.vi"/>
+	<Item Name="Connect OPCUA Server Auto.vi" Type="VI" URL="../Connect OPCUA Server Auto.vi"/>
 </Library>
