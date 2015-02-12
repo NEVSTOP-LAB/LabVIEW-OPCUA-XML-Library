@@ -72,6 +72,13 @@
 			<Item Name="UA_XML_OP.vi" Type="VI" URL="../subVIs/RT/UA_XML_OP.vi"/>
 			<Item Name="UA_XML_Read.vi" Type="VI" URL="../subVIs/RT/UA_XML_Read.vi"/>
 		</Item>
+		<Item Name="client" Type="Folder">
+			<Item Name="ServerName.vi" Type="VI" URL="../subVIs/client/ServerName.vi"/>
+			<Item Name="ServerPort.vi" Type="VI" URL="../subVIs/client/ServerPort.vi"/>
+			<Item Name="ServerPolicy.vi" Type="VI" URL="../subVIs/client/ServerPolicy.vi"/>
+			<Item Name="ServerCertification.vi" Type="VI" URL="../subVIs/client/ServerCertification.vi"/>
+			<Item Name="ClientCertification.vi" Type="VI" URL="../subVIs/client/ClientCertification.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Create OPCUA Server Auto.vi" Type="VI" URL="../Create OPCUA Server Auto.vi"/>
 	<Item Name="Connect OPCUA Server Auto.vi" Type="VI" URL="../Connect OPCUA Server Auto.vi"/>
