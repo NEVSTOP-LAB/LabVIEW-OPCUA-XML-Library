@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
-	<Property Name="CCSymbols" Type="Str">SPECIAL,TRUE;</Property>
+	<Property Name="CCSymbols" Type="Str">SPECIAL,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -88,18 +88,26 @@
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/13.0</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../vipb/NI_AB_PROJECTNAME.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../vipb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0A065555-76F0-419A-92BA-32BCA60E5B4D}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../vipb/NI_AB_PROJECTNAME.llb</Property>
-				<Property Name="Destination[0].type" Type="Str">LLB</Property>
+				<Property Name="Destination[0].path" Type="Path">../vipb</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../vipb/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{89319C4C-2B45-4CC2-BC52-F9E885CABE10}</Property>
+				<Property Name="Destination[2].destName" Type="Str">OPCUA XML</Property>
+				<Property Name="Destination[2].path" Type="Path">../vipb/OPCUAXML.llb</Property>
+				<Property Name="Destination[2].type" Type="Str">LLB</Property>
+				<Property Name="Destination[3].destName" Type="Str">OPCUA(ServerUtility)</Property>
+				<Property Name="Destination[3].path" Type="Path">../vipb/OPCUA(ServerUtility).llb</Property>
+				<Property Name="Destination[3].type" Type="Str">LLB</Property>
+				<Property Name="Destination[4].destName" Type="Str">OPCUA(ClientUtility)</Property>
+				<Property Name="Destination[4].path" Type="Path">../vipb/OPCUA(ClientUtility).llb</Property>
+				<Property Name="Destination[4].type" Type="Str">LLB</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4CDF7107-A8E2-4990-A139-26B9A3E9C8F6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyPassword" Type="Bool">true</Property>
@@ -110,16 +118,96 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Server.vi</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/OCPUA XML/OPCUA XML.lvlib/subVIs</Property>
+				<Property Name="Source[11].type" Type="Str">Container</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/OCPUA XML/OPCUA XML.lvlib/Connect OPCUA Server Auto.vi</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[12].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[13].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib/private</Property>
+				<Property Name="Source[13].type" Type="Str">Container</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib/Refnum.vi</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[14].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib/Create.vi</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib/Start.vi</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib/Create&amp;Start.vi</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[17].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib/Stop.vi</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib/Close.vi</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/OCPUA XML/OPCUA XML.lvlib/Create OPCUA Server Auto.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib/Stop&amp;Close.vi</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[20].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[21].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OCPUA Client(UtilityMode).lvlib/private</Property>
+				<Property Name="Source[21].type" Type="Str">Container</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OCPUA Client(UtilityMode).lvlib/Refnum.vi</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[22].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OCPUA Client(UtilityMode).lvlib/Connect.vi</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[23].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OCPUA Client(UtilityMode).lvlib/Disconnect.vi</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
+				<Property Name="Source[24].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/OCPUA XML</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/OCPUA XML/OPCUA XML.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/OCPUA(Utility)</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OPCUA Server(UtilityMode).lvlib</Property>
+				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/OCPUA(Utility)/OCPUA Client(UtilityMode).lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/OPCUA</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/server config.xml</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="SourceCount" Type="Int">25</Property>
 			</Item>
 		</Item>
 	</Item>
