@@ -54,15 +54,17 @@
 		</Item>
 		<Item Name="RT" Type="Folder">
 			<Item Name="supports" Type="Folder">
+				<Item Name="control" Type="Folder">
+					<Item Name="UA_Node.ctl" Type="VI" URL="../subVIs/RT/UA_Node.ctl"/>
+					<Item Name="UA_OP Action.ctl" Type="VI" URL="../subVIs/RT/UA_OP Action.ctl"/>
+					<Item Name="UA_RowType.ctl" Type="VI" URL="../subVIs/RT/UA_RowType.ctl"/>
+					<Item Name="UA_Server config info.ctl" Type="VI" URL="../subVIs/RT/UA_Server config info.ctl"/>
+					<Item Name="UA_XML Data.ctl" Type="VI" URL="../subVIs/RT/UA_XML Data.ctl"/>
+				</Item>
 				<Item Name="UA_Data_To_Item.vi" Type="VI" URL="../subVIs/RT/UA_Data_To_Item.vi"/>
 				<Item Name="UA_GetNodenameValue.vi" Type="VI" URL="../subVIs/RT/UA_GetNodenameValue.vi"/>
 				<Item Name="UA_Node Quene.vi" Type="VI" URL="../subVIs/RT/UA_Node Quene.vi"/>
-				<Item Name="UA_Node.ctl" Type="VI" URL="../subVIs/RT/UA_Node.ctl"/>
-				<Item Name="UA_OP Action.ctl" Type="VI" URL="../subVIs/RT/UA_OP Action.ctl"/>
-				<Item Name="UA_RowType.ctl" Type="VI" URL="../subVIs/RT/UA_RowType.ctl"/>
-				<Item Name="UA_Server config info.ctl" Type="VI" URL="../subVIs/RT/UA_Server config info.ctl"/>
 				<Item Name="UA_StringToCertificationsFiles.vi" Type="VI" URL="../subVIs/RT/UA_StringToCertificationsFiles.vi"/>
-				<Item Name="UA_XML Data.ctl" Type="VI" URL="../subVIs/RT/UA_XML Data.ctl"/>
 				<Item Name="UA_XML Get Server config info.vi" Type="VI" URL="../subVIs/RT/UA_XML Get Server config info.vi"/>
 				<Item Name="UA_XML_stringtype.vi" Type="VI" URL="../subVIs/RT/UA_XML_stringtype.vi"/>
 			</Item>

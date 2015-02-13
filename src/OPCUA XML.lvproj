@@ -29,7 +29,6 @@
 			<Item Name="OPCUA XML Automaticallly publishing.pptx" Type="Document" URL="../Documentation/OPCUA XML Automaticallly publishing.pptx"/>
 		</Item>
 		<Item Name="OCPUA XML" Type="Folder">
-			<Item Name="subVIs" Type="Folder"/>
 			<Item Name="OPCUA XML.lvlib" Type="Library" URL="../OPCUA XML/OPCUA XML.lvlib"/>
 		</Item>
 		<Item Name="OCPUA(Utility)" Type="Folder">
