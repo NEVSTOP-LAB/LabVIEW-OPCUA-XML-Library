@@ -8,6 +8,8 @@
 	<Item Name="Server.vi" Type="VI" URL="../Server.vi"/>
 	<Item Name="Client(UtilityMode).vi" Type="VI" URL="../Client(UtilityMode).vi"/>
 	<Item Name="Server(UtilityMode).vi" Type="VI" URL="../Server(UtilityMode).vi"/>
+	<Item Name="Client(XML).vi" Type="VI" URL="../Client(XML).vi"/>
+	<Item Name="Server(XML).vi" Type="VI" URL="../Server(XML).vi"/>
 	<Item Name="config.xml" Type="Document" URL="../config.xml"/>
 	<Item Name="readme.html" Type="Document" URL="../readme.html"/>
 </Library>
