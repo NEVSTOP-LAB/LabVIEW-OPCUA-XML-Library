@@ -42,6 +42,7 @@
 			<Item Name="str to datetime.vi" Type="VI" URL="../subVIs/convert VIs/str to datetime.vi"/>
 			<Item Name="str to datetype.vi" Type="VI" URL="../subVIs/convert VIs/str to datetype.vi"/>
 			<Item Name="str to policy.vi" Type="VI" URL="../subVIs/convert VIs/str to policy.vi"/>
+			<Item Name="file or path.vi" Type="VI" URL="../subVIs/convert VIs/file or path.vi"/>
 		</Item>
 		<Item Name="Desktop" Type="Folder">
 			<Item Name="close configuration.vi" Type="VI" URL="../subVIs/Desktop/close configuration.vi"/>

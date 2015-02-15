@@ -9,13 +9,17 @@
 <policy>none</policy>
 <!--  Server Certification 信息 (必填) -->
 <!--  填写 cer 文件路径，不需要时，保持空白 -->
+<!-- cer 可以只填文件名，例如 base64.cer，在 Windows 系统中，默认在 application folder 中, 在 RT 系统中，默认为 /ni-rt/startup/ 中-->
 <!--  * e.g. C:\Users\yaoli\AppData\Roaming\alipay\cf\base64.cer -->
+<!--  * e.g. base64.cer -->
 <serverCertification></serverCertification>
 <!--  Server 信任的client 列表 (Optional) -->
 <trustedClientCertifications>
   <!--  填写 cer 文件路径，不需要时，保持空白；信任多个client时，Copy 增加新的certification 字段-->  
   <!--  填写 cer 文件路径，不需要时，保持空白 -->
+  <!-- cer 可以只填文件名，例如 base64.cer，在 Windows 系统中，默认在 application folder 中, 在 RT 系统中，默认为 /ni-rt/startup/ 中-->
   <!--  * e.g. C:\Users\yaoli\AppData\Roaming\alipay\cf\base64.cer -->
+  <!--  * e.g. base64.cer -->
   <certification></certification> 
 </trustedClientCertifications>
 <!--  Server 结构状态 (必填) -->
