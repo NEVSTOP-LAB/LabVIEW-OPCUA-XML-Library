@@ -96,8 +96,8 @@
 	
 		<folder name="level2">
 		
-			<folder name="level3">
-				<folder name="level4">
+			<folder name ="level3">
+				<folder name ="level4">
 					<folder name="level5">
 						<folder name="level6">
 							<item name="data level6" access="read/write" datatype="uint32" initialValue="1000" description=""></item>							
