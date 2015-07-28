@@ -288,9 +288,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="OPCUA" Type="Folder">
-			<Item Name="OPC UA Demo.lvlib" Type="Library" URL="../OPCUA/OPC UA Demo.lvlib"/>
-		</Item>
 		<Item Name="Server.vi" Type="VI" URL="../Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -323,8 +320,6 @@ AddOutputFilter chunkFilter
 			<Item Name="ni_opcua_base.dll" Type="Document" URL="ni_opcua_base.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OCPUA Client(UtilityMode).lvlib" Type="Library" URL="../OPCUA(Utility)/Client/OCPUA Client(UtilityMode).lvlib"/>
-			<Item Name="OPCUA Server(UtilityMode).lvlib" Type="Library" URL="../OPCUA(Utility)/Server/OPCUA Server(UtilityMode).lvlib"/>
 			<Item Name="OPCUA XML.lvlib" Type="Library" URL="../OPCUA XML/OPCUA XML.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
