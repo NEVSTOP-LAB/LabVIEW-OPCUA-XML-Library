@@ -1,8 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="14008000">
 	<Property Name="CCSymbols" Type="Str">SPECIAL,TRUE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -28,15 +29,12 @@
 			<Item Name="foxechs.exe" Type="Document" URL="../Documentation/foxechs.exe"/>
 			<Item Name="OPCUA XML Automaticallly publishing.pptx" Type="Document" URL="../Documentation/OPCUA XML Automaticallly publishing.pptx"/>
 		</Item>
-		<Item Name="OCPUA XML" Type="Folder">
-			<Item Name="OPCUA XML.lvlib" Type="Library" URL="../OPCUA XML/OPCUA XML.lvlib"/>
-		</Item>
 		<Item Name="OCPUA(Utility)" Type="Folder">
 			<Item Name="OPCUA Server(UtilityMode).lvlib" Type="Library" URL="../OPCUA(Utility)/Server/OPCUA Server(UtilityMode).lvlib"/>
 			<Item Name="OCPUA Client(UtilityMode).lvlib" Type="Library" URL="../OPCUA(Utility)/Client/OCPUA Client(UtilityMode).lvlib"/>
 		</Item>
-		<Item Name="OPCUA" Type="Folder">
-			<Item Name="OPC UA Demo.lvlib" Type="Library" URL="../OPCUA/OPC UA Demo.lvlib"/>
+		<Item Name="OCPUA XML" Type="Folder">
+			<Item Name="OPCUA XML.lvlib" Type="Library" URL="../OPCUA XML/OPCUA XML.lvlib"/>
 		</Item>
 		<Item Name="Server.vi" Type="VI" URL="../Server.vi"/>
 		<Item Name="server config.xml" Type="Document" URL="../server config.xml"/>
@@ -201,7 +199,7 @@
 				<Property Name="Source[7].type" Type="Str">Library</Property>
 				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/OPCUA</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
@@ -213,9 +211,9 @@
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
-		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,7459;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">7459</Property>
+		<Property Name="alias.value" Type="Str">10.144.41.241</Property>
+		<Property Name="CCSymbols" Type="Str">OS,VxWorks;CPU,PowerPC;DeviceCode,7527;TARGET_TYPE,RT;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">7527</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -252,6 +250,34 @@
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
+DirectoryIndex index.htm
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_MODULEPATHS"
+LoadModule LVAuth lvauthmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline Definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
+
+
+</Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>

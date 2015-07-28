@@ -20,7 +20,9 @@
   <!-- cer 可以只填文件名，例如 base64.cer，在 Windows 系统中，默认在 application folder 中, 在 RT 系统中，默认为 /ni-rt/startup/ 中-->
   <!--  * e.g. C:\Users\yaoli\AppData\Roaming\alipay\cf\base64.cer -->
   <!--  * e.g. base64.cer -->
-  <certification></certification> 
+  <!-- <certification>C:\1.txt</certification> --> 
+  <!-- <certification>C:\2.txt</certification> -->
+  <!-- <certification>C:\3.txt</certification> -->
 </trustedClientCertifications>
 <!--  Server 结构状态 (必填) -->
 <structure>
@@ -80,6 +82,31 @@
       <property name="status" access="read only" datatype="boolean" initialValue="FALSE" description="Status of str1."></property>
       </item>
     </folder>
+	<folder name="grandpa">
+		<!-- item name="grandpa item" access="read/write" datatype="string" initialValue="" description=""></item> -->
+		<folder name="father">	
+			<!-- item name="father item" access="read/write" datatype="string" initialValue="" description=""></item>  -->
+			<folder name="son">
+				<item name="son item" access="read/write" datatype="string" initialValue="" description=""></item>
+			</folder>
+		</folder>
+	</folder>
+	
+	<folder name="level1">
+	
+		<folder name="level2">
+		
+			<folder name="level3">
+				<folder name="level4">
+					<folder name="level5">
+						<folder name="level6">
+							<item name="data level6" access="read/write" datatype="uint32" initialValue="1000" description=""></item>							
+						</folder>												
+					</folder>						
+				</folder>						
+			</folder>			
+		</folder>
+	</folder>	
   </folder>
 </structure>
 </opcua_server>
