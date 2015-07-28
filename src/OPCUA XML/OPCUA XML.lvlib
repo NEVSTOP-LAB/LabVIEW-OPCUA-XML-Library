@@ -77,14 +77,8 @@
 			<Item Name="str to datetime.vi" Type="VI" URL="../subVIs/convert VIs/str to datetime.vi"/>
 			<Item Name="str to datetype.vi" Type="VI" URL="../subVIs/convert VIs/str to datetype.vi"/>
 			<Item Name="str to policy.vi" Type="VI" URL="../subVIs/convert VIs/str to policy.vi"/>
+			<Item Name="str to security policy.vi" Type="VI" URL="../subVIs/convert VIs/str to security policy.vi"/>
 			<Item Name="file or path.vi" Type="VI" URL="../subVIs/convert VIs/file or path.vi"/>
-		</Item>
-		<Item Name="client" Type="Folder">
-			<Item Name="ServerName.vi" Type="VI" URL="../subVIs/client/ServerName.vi"/>
-			<Item Name="ServerPort.vi" Type="VI" URL="../subVIs/client/ServerPort.vi"/>
-			<Item Name="ServerPolicy.vi" Type="VI" URL="../subVIs/client/ServerPolicy.vi"/>
-			<Item Name="ServerCertification.vi" Type="VI" URL="../subVIs/client/ServerCertification.vi"/>
-			<Item Name="ClientCertification.vi" Type="VI" URL="../subVIs/client/ClientCertification.vi"/>
 		</Item>
 		<Item Name="SetInitialValue.vi" Type="VI" URL="../subVIs/SetInitialValue.vi"/>
 		<Item Name="UAXMLParse.vi" Type="VI" URL="../subVIs/UAXMLParse.vi"/>
