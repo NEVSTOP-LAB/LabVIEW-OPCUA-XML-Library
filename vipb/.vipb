@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-12 16:56:17" Modified_Date="2015-07-28 14:20:58" Creator="yaoli" Comments="" ID="97039bf9060cfbbff557d29954a22251">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-12 16:56:17" Modified_Date="2015-07-28 14:56:05" Creator="yaoli" Comments="" ID="c0f89ccd24ff8884f79c7f7dfdc0154a">
   <Library_General_Settings>
     <Package_File_Name>nevstop_lib_opcua_xml</Package_File_Name>
-    <Library_Version>1.2.0.3</Library_Version>
+    <Library_Version>1.2.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>_VIP</Library_Output_Folder>
@@ -124,6 +124,9 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>_VIP</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>InternalResource</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -266,7 +269,7 @@
         <Path>OPCUAXML.llb\Connect OPCUA Server Auto.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>618648A8DEF45B8F257EB0D3693BDA97</GUID>
+      <GUID>50A283496F51929D6DDDD863892735DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -329,7 +332,7 @@
         <Path>OPCUA(ServerUtility).llb\ServerRefnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>55ED1366EE07B5FE6816CEA11185B67C</GUID>
+      <GUID>AA0BC004DD279F3B84EF7BB31BABC130</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -392,7 +395,7 @@
         <Path>OPCUA(ClientUtility).llb\ClientRefnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7951C818E4A40EA4066E80775A8FC8A</GUID>
+      <GUID>C882F3C8E9F4D530E3D5FBF27A811D62</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
