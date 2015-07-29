@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-12 16:56:17" Modified_Date="2015-07-28 14:56:05" Creator="yaoli" Comments="" ID="c0f89ccd24ff8884f79c7f7dfdc0154a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-12 16:56:17" Modified_Date="2015-07-29 14:04:27" Creator="yaoli" Comments="" ID="f95cd2cb312a45509c4bdad87903b361">
   <Library_General_Settings>
     <Package_File_Name>nevstop_lib_opcua_xml</Package_File_Name>
-    <Library_Version>1.2.0.4</Library_Version>
+    <Library_Version>1.2.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>_VIP</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/nevstop/LabVIEW-OPCUA-XML-Library</URL>
-      <Release_Notes/>
+      <Release_Notes>1.2.1 修改Connect Server Auto.vi 的部分连线为 optional</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +269,7 @@
         <Path>OPCUAXML.llb\Connect OPCUA Server Auto.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50A283496F51929D6DDDD863892735DE</GUID>
+      <GUID>48536FBD9B11B5EECC8D159C8D2D2D94</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -332,7 +332,7 @@
         <Path>OPCUA(ServerUtility).llb\ServerRefnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA0BC004DD279F3B84EF7BB31BABC130</GUID>
+      <GUID>243E92657AE23F34D52130F6F4AB6206</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -395,7 +395,7 @@
         <Path>OPCUA(ClientUtility).llb\ClientRefnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C882F3C8E9F4D530E3D5FBF27A811D62</GUID>
+      <GUID>CBEA022D0F00360E9ACB215C4F79857E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
