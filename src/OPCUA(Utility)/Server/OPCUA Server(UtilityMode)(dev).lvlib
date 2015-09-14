@@ -39,11 +39,13 @@
 		<Item Name="_Core(server).vi" Type="VI" URL="../_Core(server).vi"/>
 		<Item Name="_op(server).ctl" Type="VI" URL="../_op(server).ctl"/>
 	</Item>
-	<Item Name="ServerRefnum.vi" Type="VI" URL="../ServerRefnum.vi"/>
-	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
-	<Item Name="Start.vi" Type="VI" URL="../Start.vi"/>
-	<Item Name="Create&amp;Start.vi" Type="VI" URL="../Create&amp;Start.vi"/>
-	<Item Name="Stop.vi" Type="VI" URL="../Stop.vi"/>
-	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
-	<Item Name="Stop&amp;Close.vi" Type="VI" URL="../Stop&amp;Close.vi"/>
+	<Item Name="public" Type="Folder">
+		<Item Name="ServerRefnum.vi" Type="VI" URL="../ServerRefnum.vi"/>
+		<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
+		<Item Name="Start.vi" Type="VI" URL="../Start.vi"/>
+		<Item Name="Create&amp;Start.vi" Type="VI" URL="../Create&amp;Start.vi"/>
+		<Item Name="Stop.vi" Type="VI" URL="../Stop.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
+		<Item Name="Stop&amp;Close.vi" Type="VI" URL="../Stop&amp;Close.vi"/>
+	</Item>
 </Library>

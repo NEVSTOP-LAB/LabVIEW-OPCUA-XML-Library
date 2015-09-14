@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-12 16:56:17" Modified_Date="2015-07-29 14:04:27" Creator="yaoli" Comments="" ID="f95cd2cb312a45509c4bdad87903b361">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-11-12 16:56:17" Modified_Date="2015-09-14 11:06:49" Creator="yaoli" Comments="" ID="8725110bea228986802ba25481a000e6">
   <Library_General_Settings>
     <Package_File_Name>nevstop_lib_opcua_xml</Package_File_Name>
-    <Library_Version>1.2.1.5</Library_Version>
+    <Library_Version>1.2.2.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>_VIP</Library_Output_Folder>
@@ -32,7 +32,8 @@
       <Copyright/>
       <Packager/>
       <URL>https://github.com/nevstop/LabVIEW-OPCUA-XML-Library</URL>
-      <Release_Notes>1.2.1 修改Connect Server Auto.vi 的部分连线为 optional</Release_Notes>
+      <Release_Notes>1.2.2 修复bug. 1）初始值发布问题 2）uint32 array 发布为datatime 问题
+1.2.1 修改Connect Server Auto.vi 的部分连线为 optional</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +270,7 @@
         <Path>OPCUAXML.llb\Connect OPCUA Server Auto.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48536FBD9B11B5EECC8D159C8D2D2D94</GUID>
+      <GUID>8C3364A3C17FF2A9165C5D674B571270</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -332,7 +333,7 @@
         <Path>OPCUA(ServerUtility).llb\ServerRefnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>243E92657AE23F34D52130F6F4AB6206</GUID>
+      <GUID>F8A31CB312D2981B969595329D4C0356</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -395,7 +396,7 @@
         <Path>OPCUA(ClientUtility).llb\ClientRefnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBEA022D0F00360E9ACB215C4F79857E</GUID>
+      <GUID>28DC959303D4AF4F1C8F5CE6F4C88C06</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

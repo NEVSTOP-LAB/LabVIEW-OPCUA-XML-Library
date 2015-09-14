@@ -39,7 +39,9 @@
 		<Item Name="_Core(client).vi" Type="VI" URL="../_Core(client).vi"/>
 		<Item Name="_op(client).ctl" Type="VI" URL="../_op(client).ctl"/>
 	</Item>
-	<Item Name="ClientRefnum.vi" Type="VI" URL="../ClientRefnum.vi"/>
-	<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
-	<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
+	<Item Name="public" Type="Folder">
+		<Item Name="ClientRefnum.vi" Type="VI" URL="../ClientRefnum.vi"/>
+		<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
+		<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
+	</Item>
 </Library>
