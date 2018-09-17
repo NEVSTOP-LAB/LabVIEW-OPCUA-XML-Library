@@ -1,6 +1,6 @@
-# LabVIEW-OPCUA-XML-Library
+# LabVIEW OPCUA XML Library
 
-Use a XML configuration file to create the NI OPCUA Server.
+Use a XML configuration file to create the NI OPCUA Server.     
 NI OPCUA 根据xml配置文件自动创建Server.
 
 ## 目的
@@ -23,7 +23,7 @@ NI OPCUA 根据xml配置文件自动创建Server.
   
 ![image](https://user-images.githubusercontent.com/8196752/45535622-b2f35580-b831-11e8-806c-6c11696199c5.png)
 
-2)  创建OPCServer的逻辑，使用自动创建VI，可以得到简化。
+2） 创建OPCServer的逻辑，使用自动创建VI，可以得到简化。
 
 ![image](https://user-images.githubusercontent.com/8196752/45535646-cacad980-b831-11e8-867f-293ea4b5d0b8.png)
 
