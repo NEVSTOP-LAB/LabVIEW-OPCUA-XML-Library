@@ -8,7 +8,6 @@ NI OPCUA 根据xml配置文件自动创建Server.
 * 数据点多opcua Server 的情况，使用程序创建， 比较复杂。当增加新的数据点时，需要修改源程序，风险大，容易对之前的程序产生影响。
 * OPCUA Server 可以作为数据、配置、命令中心，协调不同终端设备之间的通讯。不同设备根据配置文件，就可以知道其他设备的数据地址。从而可以并行开发。
 
-
 ## 使用方法
 
 根据xml 自动创建OPCUA Server，原本的程序只需要将创建UA Server API替换即可。
@@ -52,8 +51,21 @@ xml 文件的设计，请参照样本xml进行修改。简单的说明如下：
   
 ![image](https://user-images.githubusercontent.com/8196752/45535702-006fc280-b832-11e8-8218-e9c4eb89e4e9.png)
 
+## 常见的 OPCUA 问题解决方法
 
+### 1. OPCUA Certification 位置        
+参考 http://zone.ni.com/reference/en-XX/help/376230A-01/opcuatool/protecting_opcua_data_item/。   
+ - Window Default Certificate File 位置： C:\ProgramData\National Instruments\certstore\opcua\
+ - Linux RT Default Certificate File 位置： /var/local/natinst/certstore/opcua/
+ 
+### 2. Certificate 过期问题 Solution       
+使用 OPCUA_Utility.lib/Create Cert.vi 创建一个在时间有效期内的证书，拷贝到RT的Certificate File 位置，替换原本过期的证书。
 
+### 3. Error -356653：The status of the OPC UA server is uncertain.     
+参考 https://forums.ni.com/t5/LabVIEW/OPC-UA-connection-problem/td-p/3750719
+
+常在 LabVIEW 2017 中发现。与DNS 有关，在 HOST 文件中定义 IP 与 cRIO/PXI 等OPCUA Server 宿主机HostName 关联关系，可以解决。    
+![opc_ua](https://user-images.githubusercontent.com/8196752/67999386-12f7c600-fc97-11e9-80e2-9b2f061ff3c2.PNG)
 
 
 
